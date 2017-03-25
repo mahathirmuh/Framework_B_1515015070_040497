@@ -1,7 +1,3 @@
-<!-- BUAT MODEL CONTROLLER UNTUK-->
-<!-- DOSEN,MAHASISWA,MATAKULIAH,DOSEN_MATAKULIAH -->
-<!-- JADWAL_MATAKULIAH DAN RUANGAN -->
-<!-- HARUS ADA FUNGSI AWAL(),TAMBAH(),SIMPAN() -->
 <!DOCTYPE html>
 <html>
     <head>
@@ -42,7 +38,7 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">SAITAMA - SENSEI</div>
+                <div class="title">Laravel 5</div>
             </div>
         </div>
     </body>
