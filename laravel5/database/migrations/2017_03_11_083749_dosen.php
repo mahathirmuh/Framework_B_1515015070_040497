@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class BuatTableDosen extends Migration
+class Dosen extends Migration
 {
     /**
      * Run the migrations.
@@ -20,6 +20,7 @@ class BuatTableDosen extends Migration
             $table->integer('pengguna_id',false,true);
             $table->foreign('pengguna_id')->references('id')->on('pengguna')->onDelete('cascade');
             $table->timestamps();
+
         });
     }
 

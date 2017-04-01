@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class BuatTableMahasiswa extends Migration
+class Mahasiswa extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class BuatTableMahasiswa extends Migration
     public function up()
     {
         Schema::create('mahasiswa', function (Blueprint $table) {
-            $table->increments('id');
+             $table->increments('id');
             $table->string('nama',50);
             $table->string('nim',10);
             $table->text('alamat');

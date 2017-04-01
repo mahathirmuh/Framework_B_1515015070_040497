@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class BuatTableMatakuliah extends Migration
+class Matakuliah extends Migration
 {
     /**
      * Run the migrations.

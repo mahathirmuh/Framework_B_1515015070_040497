@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class BuatTableJadwalMatakuliah extends Migration
+class JadwalMatakuliah extends Migration
 {
     /**
      * Run the migrations.
@@ -18,8 +18,8 @@ class BuatTableJadwalMatakuliah extends Migration
             $table->foreign('mahasiswa_id')->references('id')->on('mahasiswa')->onDelete('cascade');
             $table->integer('ruangan_id',false,true);
             $table->foreign('ruangan_id')->references('id')->on('ruangan')->onDelete('cascade');
-            $table->integer('dosen_matakuliah_id',false,true);
-            $table->foreign('dosen_matakuliah_id')->references('id')->on('dosen_matakuliah')->onDelete('cascade');
+             $table->integer('dosen_id',false,true);
+            $table->foreign('dosen_matakuliah_id')->references('id')->on('dosen')->onDelete('cascade');
             $table->timestamps();
         });
     }

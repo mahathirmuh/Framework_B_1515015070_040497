@@ -79,7 +79,9 @@
 		</div>
 		<nav class="navbar navbar-default navbar-fixed-bottom">
 		<footer class="container">
-			created by <a href="https://www.facebook.com/profile.php?id=100008526373400"><span><i class="fa fa-facebook" style="color:#1da1f2"></i> @Mahathir Muhammad</span></a>
+			<!-- Please dont delete this -->
+			created by <a href="https://www.facebook.com/andre.prastya?ref=bookmarks"><span><i class="fa fa-facebook" style="color:#1da1f2"></i> @Andre P.R.</span></a>
+			<!--/ Please dont delete this -->
 		</footer>	
 		</nav>
 		<script type="text/javascript" src="{{asset('component/jquery/dist/jquery.min.js')}}"></script>
