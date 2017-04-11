@@ -6,10 +6,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class Peran extends Model
 {
-    //
-    Protected $table='peran';
-    public function pengguna()
-    {
-    	return $this->belongsToMany(Pengguna::class);//Terelasi dengan model pengguna
-;    }
+    protected $table = 'peran';
+    protected $guarded = ['id'];
+	
+	public function pengguna(); //membuat fungsi dengan nama pengguna
+	{
+		return this->belongsToMany(pengguna::class);
+		//sintaks ini menghubungkan antara model pengguna dengan model peran, jadi kita bisa mengakses isi model pengguna melalui model peran. sintaks belongsToMany sendiri menandakan hubungan relasinya adalah many to many
+	}
 }
