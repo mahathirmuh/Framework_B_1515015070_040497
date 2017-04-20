@@ -3,9 +3,12 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContrast;
+use Illuminate\Auth\Authenticatable;
 
-class pengguna extends Model
+class pengguna extends Model implements AuthenticatableContrast
 {
+    use Authenticatable;
     //
     protected $table = 'pengguna';
     //protected $fillable = ['username','password'];

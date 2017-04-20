@@ -38,8 +38,8 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">ANDIROYD</div>
+                <div class="title">SAITAMA - SENSEI</div>
             </div>
         </div>
     </body>
-</html>
+</html> 

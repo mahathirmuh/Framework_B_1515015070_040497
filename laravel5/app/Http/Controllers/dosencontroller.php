@@ -57,8 +57,10 @@ class dosencontroller extends Controller
         if(!is_null($input->username))
         {
             $pengguna = $dosen->pengguna->fill($input->only('username'));
-        if(!empty($input->password)) $pengguna->password = $input->password;
-        if($pengguna->save()) $this->informasi = 'berhasil simpan data';
+            if(!empty($input->password))
+                $pengguna->password = $input->password;
+                if($pengguna->save())
+                    $this->informasi = 'berhasil simpan data';
         }
         else
         {
@@ -71,7 +73,8 @@ class dosencontroller extends Controller
         $dosen = dosen::find($id);
         if($dosen->pengguna()->delete())
         {
-            if($dosen->delete()) $this->informasi = 'berhasil hapus data';
+            if($dosen->delete())
+                $this->informasi = 'berhasil hapus data';
         }
         return redirect('dosen')->with(['informasi' => $this->informasi]);
     }
