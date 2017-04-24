@@ -90,7 +90,7 @@
     <nav class="navbar navbar-default navbar-fixed-bottom">
         <footer class="container">
             <!-- Please dont delete this -->
-			created by <a href="https://www.facebook.com/chrisman.sinaga.1"><span><i class="fa fa-facebook" style="color:#1da1f2"></i> @Chrisman Bonor Sinaga</span></a>
+			created by <a href="https://www.facebook.com/profile.php?id=100008526373400"><span><i class="fa fa-facebook" style="color:#1da1f2"></i> @Mahathir Muhammad</span></a>
 			<!--/ Please dont delete this -->
         </footer>
     </nav>

@@ -92,7 +92,7 @@ Route::get('/logout1','SesiController@logout');
 
 Route::group(['middleware'=>'AutentifikasiUser'],function()
 {
-	Route::get('/','SesiController@index');
+Route::get('/','SesiController@index');
 Route::get('pengguna', 'PenggunaController@awal');
 Route::get('pengguna/tambah', 'PenggunaController@tambah');
 Route::get('pengguna/{pengguna}','PenggunaController@lihat');
